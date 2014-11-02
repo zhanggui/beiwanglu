@@ -10,7 +10,6 @@
 		845D8B6F1A03563F001ADBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8B6E1A03563F001ADBCA /* main.m */; };
 		845D8B721A03563F001ADBCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8B711A03563F001ADBCA /* AppDelegate.m */; };
 		845D8B7A1A03563F001ADBCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D8B791A03563F001ADBCA /* Images.xcassets */; };
-		845D8B7D1A03563F001ADBCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D8B7B1A03563F001ADBCA /* LaunchScreen.xib */; };
 		845D8B891A03563F001ADBCA /* beiwangluTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8B881A03563F001ADBCA /* beiwangluTests.m */; };
 		845D8B9A1A035D2F001ADBCA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D8B991A035D2F001ADBCA /* BaseViewController.m */; };
 		C1289F6AD3CD4BABB6F15807 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B5C825526A468791F3AFB9 /* libPods.a */; };
@@ -35,7 +34,6 @@
 		845D8B701A03563F001ADBCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		845D8B711A03563F001ADBCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		845D8B791A03563F001ADBCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		845D8B7C1A03563F001ADBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		845D8B821A03563F001ADBCA /* beiwangluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beiwangluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D8B871A03563F001ADBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845D8B881A03563F001ADBCA /* beiwangluTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beiwangluTests.m; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 				845D8B701A03563F001ADBCA /* AppDelegate.h */,
 				845D8B711A03563F001ADBCA /* AppDelegate.m */,
 				845D8B791A03563F001ADBCA /* Images.xcassets */,
-				845D8B7B1A03563F001ADBCA /* LaunchScreen.xib */,
 				845D8B941A035C88001ADBCA /* ViewController */,
 				845D8B6C1A03563F001ADBCA /* Supporting Files */,
 			);
@@ -228,7 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845D8B7D1A03563F001ADBCA /* LaunchScreen.xib in Resources */,
 				845D8B7A1A03563F001ADBCA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,17 +299,6 @@
 			targetProxy = 845D8B831A03563F001ADBCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		845D8B7B1A03563F001ADBCA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				845D8B7C1A03563F001ADBCA /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		845D8B8A1A03563F001ADBCA /* Debug */ = {
@@ -398,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = beiwanglu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = beiwanglu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
